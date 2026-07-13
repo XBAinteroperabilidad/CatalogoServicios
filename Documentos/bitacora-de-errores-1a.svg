@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 80" width="440" height="160">
+  
+  <rect x="0" y="0" width="66" height="80" rx="5" fill="white" stroke="#111" stroke-width="2"></rect>
+  
+  <rect x="0" y="0" width="19" height="80" rx="5" fill="#FFD500"></rect>
+  <rect x="13" y="0" width="6" height="80" fill="#FFD500"></rect>
+  
+  <line x1="26" y1="26" x2="58" y2="26" stroke="#111" stroke-width="2" stroke-linecap="round"></line>
+  <line x1="26" y1="38" x2="58" y2="38" stroke="#111" stroke-width="2" stroke-linecap="round"></line>
+  <line x1="26" y1="50" x2="46" y2="50" stroke="#111" stroke-width="2" stroke-linecap="round"></line>
+  
+  <circle cx="64" cy="70" r="16" fill="#111"></circle>
+  <line x1="55" y1="61" x2="73" y2="79" stroke="#FFD500" stroke-width="3" stroke-linecap="round"></line>
+  <line x1="73" y1="61" x2="55" y2="79" stroke="#FFD500" stroke-width="3" stroke-linecap="round"></line>
+
+  
+  <text x="88" y="30" font-family="&#39;Encode Sans&#39;, &#39;Arial Black&#39;, sans-serif" font-size="20" font-weight="900" fill="#111" letter-spacing="-0.5" text-anchor="start" style="text-transform:uppercase">BITÁCORA</text>
+  <text x="88" y="53" font-family="&#39;Encode Sans&#39;, &#39;Arial Black&#39;, sans-serif" font-size="20" font-weight="900" fill="#111" letter-spacing="-0.5" text-anchor="start" style="text-transform:uppercase">DE ERRORES</text>
+  <text x="88" y="70" font-family="&#39;Encode Sans&#39;, Arial, sans-serif" font-size="9" font-weight="700" fill="#BBBBBB" letter-spacing="1.2" text-anchor="start" style="text-transform:uppercase">EQUIPO X-BA · GCBA</text>
+</svg>
