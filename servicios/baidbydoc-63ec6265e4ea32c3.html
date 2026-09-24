@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>BaidByDoc — Bitácora X-BA</title>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet">
+<style>
+  :root { --ob-blue:#0032A0; --ob-blue-pale:#E8EEF8; --ob-gray-700:#38485C; --ob-gray-100:#F4F4F4; --borde:#DEE2E6; --muted:#6C757D; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:'Segoe UI',Roboto,Arial,sans-serif; color:#212529; background:var(--ob-gray-100); }
+  .material-symbols-rounded { font-family:'Material Symbols Rounded'; font-weight:normal; font-style:normal; font-size:24px; line-height:1; }
+  header.o-header { background:#fff; border-bottom:1px solid var(--borde); padding:14px 0; }
+  .header-inner { max-width:860px; margin:0 auto; padding:0 20px; display:flex; align-items:center; gap:10px; }
+  .header-inner span { font-weight:700; font-size:1.05rem; }
+  main { max-width:860px; margin:0 auto; padding:24px 20px 60px; }
+  h1 { font-size:1.5rem; margin:0 0 6px; }
+  .badge { display:inline-flex; padding:2px 10px; border-radius:16px; font-size:.73rem; font-weight:600; background:var(--ob-blue-pale); color:var(--ob-blue); border:1.5px solid var(--ob-blue); }
+  .section-card { background:#fff; border-radius:8px; padding:1.5rem; margin-top:1.25rem; box-shadow:0 1px 4px rgba(0,0,0,.07); }
+  .campo { padding:10px 0; border-bottom:1px solid var(--borde); }
+  .campo:last-child { border-bottom:none; }
+  .campo label { display:block; font-size:.72rem; font-weight:700; text-transform:uppercase; letter-spacing:.3px; color:#78909C; margin-bottom:4px; }
+  .campo div { font-size:.95rem; overflow-wrap:anywhere; white-space:pre-wrap; }
+  .endpoint { font-family:'Consolas','Courier New',monospace; font-size:.85rem !important; color:#546E7A; }
+  .doc-link { display:inline-flex; align-items:center; gap:4px; color:var(--ob-blue); text-decoration:none; font-weight:500; }
+  .doc-link:hover { text-decoration:underline; }
+  .doc-link .material-symbols-rounded { font-size:1.1rem; }
+  .doc-missing { color:#C9002B; }
+  footer { text-align:center; color:var(--muted); font-size:.78rem; padding:24px 20px; }
+</style>
+</head>
+<body>
+<header class="o-header">
+  <div class="header-inner">
+    <svg width="26" height="30" viewBox="0 0 54 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0">
+      <rect x="9" y="3" width="40" height="54" rx="4" fill="#dee2e6"/>
+      <rect x="6" y="0" width="40" height="54" rx="4" fill="white" stroke="#ced4da" stroke-width="1.5"/>
+      <rect x="6" y="0" width="13" height="54" rx="4" fill="#FFD500"/>
+      <rect x="15" y="0" width="4" height="54" fill="#FFD500"/>
+      <line x1="19" y1="1" x2="19" y2="53" stroke="#D4A000" stroke-width="1"/>
+      <line x1="25" y1="18" x2="40" y2="18" stroke="#adb5bd" stroke-width="2" stroke-linecap="round"/>
+      <line x1="25" y1="27" x2="40" y2="27" stroke="#adb5bd" stroke-width="2" stroke-linecap="round"/>
+      <line x1="25" y1="36" x2="34" y2="36" stroke="#adb5bd" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+    <span>Bitácora X-BA</span>
+  </div>
+</header>
+<main>
+  <h1>BaidByDoc</h1>
+  <span class="badge">REST</span>
+  <div class="section-card">
+    <div class="campo"><label>Descripción</label><div>Obtener el BAID de un ciudadano a partir del dato del DNI.</div></div>
+    <div class="campo"><label>Endpoint</label><div class="endpoint">/dni/:dni</div></div>
+    <div class="campo"><label>Subsistema</label><div>Prov-MIBA-Prod</div></div>
+    <div class="campo"><label>Fuente auténtica</label><div>INNOVACION</div></div>
+    <div class="campo"><label>Protocolo</label><div>REST</div></div>
+    <div class="campo"><label>Documentación</label><div><a class="doc-link" href="../Documentos/SECITD%20-%20MIBA%20Search%20BAID.pdf" target="_blank" rel="noopener"><span class="material-symbols-rounded">description</span>SECITD - MIBA Search BAID.pdf</a></div></div>
+  </div>
+</main>
+<footer>Bitácora X-BA</footer>
+</body>
+</html>
